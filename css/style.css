@@ -1,0 +1,51 @@
+body {
+    background-color:black;
+}
+
+ form {
+    width: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+form label {
+    display: inline;
+    font-weight: lighter;
+}
+
+.WIDTH {
+    /* width: 500px; */
+}
+
+button {
+    padding: 5px 30px;
+    border-radius: 0px;
+}
+
+.FORM {
+    padding-left: 150px;
+}
+
+h1 {
+    padding-left:150px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+input[type=date]{ 
+    color: transparent !important; 
+} 
+.active input[type=date]{ 
+    color: inherit !important; 
+}
